@@ -8,15 +8,26 @@ ul {
     list-style: none;
 }
 
-.txtsuperior {
-    font-family:"Raleway" ;
-    font-style: normal;
-    font-weight: 700;
+.txtWebstudio {
+    font-family:'"Raleway"';
+    font-style: normal      ;
     font-size: 26px;
+    font-weight: 700;
     line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: ;
+    text-align: right   
+}
+.txtsuperior {
+    font-family:"Roboto" ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
     text-align: right;
     letter: spacing 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
 
 .txtcorreo{
@@ -29,6 +40,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
     color: #2196F3;
 }
 
@@ -42,17 +54,20 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
     color: #757575;
 }
 
-.hero-title {
-
+.hero {
     height: 600px;
     width: 1600px;
     left: -4px;
-    top: 80px;
-    border-radius: 0px;
+    top: 80px;  
+    text-align: center; 
+    background: #2F303A 
+}
 
+.hero-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -65,12 +80,7 @@ ul {
     
     color: #FFFFFF; 
     position: center;
-width: 1600px;
-height: 600px;
-left: -4px;
-top: 80px;
-
-background: #2F303A   
+  
 }
 
 .titulovalores {
@@ -102,19 +112,10 @@ color: #757575
 .botonsoluciones {
     background-color: #2196F3;
     cursor: pointer;
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 padding: 10px 32px;
-gap: 10px;
-
-position: center;
-width: 261px;
-height: 50px;
-left: 666px;
-top: 430px;
-background: #2196F3;
+font-weight: 261px;
+font-size: 16px;
+line-height: 30px;
 }
 
 .txtaquenos {
@@ -186,7 +187,7 @@ line-height: 19px;
 text-align: center;
 }
 
-.txtcorreofooter{
+.txtfooter{
 width: 231px;
 height: 21px;
 left: 215px;
@@ -197,16 +198,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
+text-decoration: none;
+color: #FFFFFF;
 }
-.txttelfooter {
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2329px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+
+.footer {
+    background-color: #2F303A;
+}
+.webfooter {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+text-decoration: none;
 }
