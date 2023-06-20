@@ -9,15 +9,16 @@ ul {
 }
 
 .txtWebstudio {
-    font-family:'"Raleway"';
+    font-family:'Raleway';
     font-style: normal      ;
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
-    text-decoration: ;
+    text-decoration: none;
     text-align: right   
 }
+
 .txtsuperior {
     font-family:"Roboto" ;
     font-style: normal;
@@ -26,8 +27,13 @@ ul {
     line-height: 16.41px;
     text-align: right;
     letter: spacing 0.03em;
-    color: #2196F3;
+    color: #212121;
     text-decoration: none;
+    
+}
+
+.txtsuperior:hover {
+    color: #2196F3;
 }
 
 .txtcorreo{
@@ -58,8 +64,11 @@ ul {
     color: #757575;
 }
 
+.txttel:hover{
+    color: #2196F3;
+}
+
 .hero {
-    height: 600px;
     width: 1600px;
     left: -4px;
     top: 80px;  
@@ -68,11 +77,9 @@ ul {
 }
 
 .hero-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 33px;
-    line-height: 60px;
    
     text-align: center;
     letter-spacing: 0.06em;
@@ -110,12 +117,16 @@ letter-spacing: 0.03em;
 color: #757575
 }
 .botonsoluciones {
-    background-color: #2196F3;
-    cursor: pointer;
+background-color: #2196F3;
+cursor: pointer;
 padding: 10px 32px;
 font-weight: 261px;
 font-size: 16px;
 line-height: 30px;
+}
+
+button:hover {
+    color:#FFFFFF;
 }
 
 .txtaquenos {
@@ -174,17 +185,8 @@ font-size: 16px;
 line-height: 19px;
 }
 .Cargo {
-width: 181px;
-height: 19px;
-left: 253px;
-top: 2015px;
-
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-text-align: center;
 }
 
 .txtfooter{
