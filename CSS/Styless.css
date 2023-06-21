@@ -20,7 +20,6 @@ ul {
 }
 
 .txtsuperior {
-    font-family:"Roboto" ;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -63,7 +62,6 @@ ul {
 }
 
 .titulovalores {
-font-family: Roboto;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
@@ -77,7 +75,6 @@ height: 75px;
 left: 215px;
 top: 801px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -107,7 +104,6 @@ height: 46.24px;
 left: 619.43px;
 top: 991px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -129,7 +125,6 @@ height: 42px;
 left: 669px;
 top: 1604px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -150,7 +145,6 @@ height: 19px;
 left: 295px;
 top: 1986px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -166,7 +160,6 @@ height: 21px;
 left: 215px;
 top: 2306px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -195,4 +188,8 @@ text-decoration: none;
 
 .botonsuperior:hover {
 background-color: #2196F3;
+}
+
+.descripcion {
+color: #757575;
 }
